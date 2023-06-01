@@ -59,3 +59,141 @@ header{
     align-items: center;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+main{
+    display:flex;
+    background-color: #E5E5E5;
+}
+.cardL{
+    display:flex;
+    background-image: url(../img/delivery.jpg);
+    color: negro;
+    width: 490px;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    border-radius: 5px;
+    margin:35px 2.5px 35px 19px;
+    padding:20px 40px 40px 30px;
+    
+}
+
+.cdL{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+}
+
+.primera{
+    color:#FC200C;
+    width: 140px;
+}
+
+.segunda{
+    width: 130px;
+}
+
+.cardR{
+    display:flex;
+    flex-direction: column;
+    background-image: url(../img/Rectangle\ 2.png);
+    color: black;
+    width: 491px;
+    height: 350px;
+    left: 514px;
+    top: 135px;
+    border-radius: 5px;
+    margin:35px 19px 35px 2.5px;
+}
+
+.cardRR{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.titulocardR{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    color: #FC200C;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.tituloMenu{
+    display:flex;
+    flex-direction:column;
+    color: black;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 64px 74px 20px 70px;
+}
+
+.menu{
+    color:black;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    width: 260px;
+    height: 20px;
+    padding: 5px 10px 10px 0px;
+    margin:5px 10px 10px 30px;
+}
+
+.cardRgrafico{
+    display:flex;
+    flex-direction:row;
+}
+
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0px 40px 0px 2px;
+}
+
+.enlacesPie{
+    display:flex;
+    flex-direction: column;
+    font-family: Roboto, serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin:20px 5px;
+    justify-content: right;
+}
+
+.enlaces2Pie{
+    padding-bottom: 10px;
+}
+
+.piePaginaR{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.nombrePie{
+    font-family: Roboto, serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.nombrelogoPie{
+    display: flex;
+    align-items: center;
+}
